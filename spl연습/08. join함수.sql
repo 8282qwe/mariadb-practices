@@ -6,7 +6,7 @@
 select *
 from employees
 where concat(first_name,' ',last_name) = 'parto hitomi';
-
+-- 11052
 select title
 from titles
 where emp_no = 11052;
@@ -16,5 +16,3 @@ from employees e,
      titles t
 where e.emp_no = t.emp_no -- join condition
   and concat(e.first_name, ' ', e.last_name) = 'parto hitomi'; -- row selector
-
-
