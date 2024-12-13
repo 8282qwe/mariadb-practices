@@ -15,9 +15,30 @@
             <artifactId>mariadb-java-client</artifactId>
             <version>3.4.0</version>
         </dependency>
-    </dependencies>
 
-<!--    <build>-->
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <!-- junit jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>9</source>
+                    <target>9</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--    <build>-->
 <!--        <finalName>jdbc-practices</finalName>-->
 <!--    </build>-->
 </project>
