@@ -46,45 +46,6 @@ public class BookDao extends MyConnection{
         };
     }
 
-    public String findByNo(long no) {
-        Connection conn = null;
-        PreparedStatement pstmt = null;
-        ResultSet rs = null;
-
-        try {
-            conn = getConnection();
-
-            // 3. Statement 생성하기
-            pstmt = conn.prepareStatement("select title from book where no = ?;");
-
-            pstmt.setLong(1, no);
-
-            // 5. SQL 실행
-            rs = pstmt.executeQuery();
-
-            while (rs.next()) {
-                return rs.getString("title");
-            }
-        } catch (SQLException e) {
-            System.out.println("SQLException: " + e.getMessage());
-        } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (pstmt != null) {
-                    pstmt.close();
-                }
-                if (conn != null && !conn.isClosed()) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQLException: " + e.getMessage());
-            }
-        }
-        return null;
-    }
-
     public void deleteByNo(Long no) {
         Connection conn = null;
         PreparedStatement pstmt = null;

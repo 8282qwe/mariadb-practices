@@ -4,8 +4,8 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -84,
-    "scrollLeft": -328,
+    "scrollTop": -15,
+    "scrollLeft": -800,
     "zoomLevel": 1,
     "show": 444,
     "database": 4,
@@ -65,15 +65,15 @@
           "S1guEBoP6BouyvXtvqDQG"
         ],
         "ui": {
-          "x": -141,
-          "y": 157,
+          "x": -185,
+          "y": 133,
           "zIndex": 2,
           "widthName": 60,
           "widthComment": 60,
           "color": ""
         },
         "meta": {
-          "updateAt": 1734070035086,
+          "updateAt": 1734306754656,
           "createAt": 1734068717581
         }
       },
@@ -644,7 +644,7 @@
         "comment": "",
         "dataType": "INT",
         "default": "",
-        "options": 8,
+        "options": 0,
         "ui": {
           "keys": 2,
           "widthName": 60,
@@ -653,7 +653,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1734069482312,
+          "updateAt": 1734306696068,
           "createAt": 1734069421297
         }
       },
@@ -929,8 +929,8 @@
           "columnIds": [
             "sEQaqitVbylK4pSgQr_6H"
           ],
-          "x": 202,
-          "y": 209,
+          "x": 158,
+          "y": 185,
           "direction": 2
         },
         "end": {
@@ -1035,7 +1035,7 @@
         "id": "1BSc56qYxaK2DMU_XhTJ4",
         "identification": false,
         "relationshipType": 16,
-        "startRelationshipType": 2,
+        "startRelationshipType": 1,
         "start": {
           "tableId": "Xn8w660lTfLyOzipGUMyQ",
           "columnIds": [
@@ -1400,7 +1400,7 @@
       1734069421296,
       -1,
       {
-        "options(notNull)": 1734069421296,
+        "options(notNull)": 1734306696059,
         "name": 1734069482311,
         "dataType": 1734069421296,
         "default": 1734069421296,
