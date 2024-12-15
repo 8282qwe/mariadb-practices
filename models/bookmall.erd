@@ -4,8 +4,8 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -442,
+    "scrollTop": -84,
+    "scrollLeft": -328,
     "zoomLevel": 1,
     "show": 444,
     "database": 4,
@@ -209,8 +209,7 @@
           "TWRJmSyIN70_rnWOuNdeZ",
           "uulMkOv_RomHyjOLuhQY3",
           "ufOI69FQozctP9Wm4_F5A",
-          "RiepTutMRJxZJAtHYIuUq",
-          "QHxB6iyssED06NdF3obm5"
+          "RiepTutMRJxZJAtHYIuUq"
         ],
         "seqColumnIds": [
           "_pvvPS2ys-MiVdq0ug7yt",
@@ -232,7 +231,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1734078519593,
+          "updateAt": 1734305131747,
           "createAt": 1734070081951
         }
       }
@@ -1080,7 +1079,7 @@
             "TWRJmSyIN70_rnWOuNdeZ"
           ],
           "x": 660.634,
-          "y": 493.4197,
+          "y": 481.4197,
           "direction": 1
         },
         "meta": {
@@ -1107,8 +1106,8 @@
           "columnIds": [
             "uulMkOv_RomHyjOLuhQY3"
           ],
-          "x": 1003.634,
-          "y": 493.4197,
+          "x": 980.634,
+          "y": 481.4197,
           "direction": 2
         },
         "meta": {
@@ -1545,7 +1544,7 @@
     "QHxB6iyssED06NdF3obm5": [
       "tableColumnEntities",
       1734078505249,
-      -1,
+      1734305131746,
       {
         "name": 1734078509660,
         "dataType": 1734078513654,

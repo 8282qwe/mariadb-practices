@@ -61,14 +61,13 @@ public class OrderDao extends MyConnection {
             conn = getConnection();
 
             // 3. Statement 생성하기
-            pstmt = conn.prepareStatement("insert into orders_book values (?, ?, ?,?,?)");
+            pstmt = conn.prepareStatement("insert into orders_book values (?, ?, ?,?)");
 
             // 4. Parameter Binding
             pstmt.setLong(1, vo.getBookNo());
             pstmt.setLong(2, vo.getOrderNo());
             pstmt.setInt(3, vo.getQuantity());
             pstmt.setInt(4, vo.getPrice());
-            pstmt.setString(5,new BookDao().findByNo(vo.getBookNo()));
 
             // 5. SQL 실행
             pstmt.executeUpdate();
