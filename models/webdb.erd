@@ -4,13 +4,13 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -1,
-    "scrollLeft": -360.6921,
+    "scrollTop": -176,
+    "scrollLeft": -421.6921,
     "zoomLevel": 1,
     "show": 444,
     "database": 4,
     "databaseName": "webdb",
-    "canvasType": "ERD",
+    "canvasType": "@dineug/erd-editor/builtin-schema-sql",
     "language": 1,
     "tableNameCase": 4,
     "columnNameCase": 2,
@@ -98,25 +98,6 @@
         "meta": {
           "updateAt": 1733882480550,
           "createAt": 1733718966381
-        }
-      },
-      "gq9TNZB8NrKWFtxihqIEc": {
-        "id": "gq9TNZB8NrKWFtxihqIEc",
-        "name": "",
-        "comment": "",
-        "columnIds": [],
-        "seqColumnIds": [],
-        "ui": {
-          "x": 494,
-          "y": 313,
-          "zIndex": 143,
-          "widthName": 60,
-          "widthComment": 60,
-          "color": ""
-        },
-        "meta": {
-          "updateAt": 1733719786661,
-          "createAt": 1733719784286
         }
       },
       "vN3lxyK-oKPL4cv70q4CU": {
@@ -725,12 +706,6 @@
       "relationshipEntities",
       1733719002442,
       -1,
-      {}
-    ],
-    "gq9TNZB8NrKWFtxihqIEc": [
-      "tableEntities",
-      1733719784283,
-      1733719787786,
       {}
     ],
     "CT9kfEOJMlrELh0gJQ0H1": [
